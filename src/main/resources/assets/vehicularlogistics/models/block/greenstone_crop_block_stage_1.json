@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "vehicularlogistics:block/greenstone_crop_block_stage_1"
+  }
+}

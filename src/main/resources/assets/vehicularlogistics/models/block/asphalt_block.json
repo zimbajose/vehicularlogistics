@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "vehicularlogistics:block/asphalt_block"
+  }
+}

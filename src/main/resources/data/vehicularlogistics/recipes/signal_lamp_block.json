@@ -1,0 +1,20 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GLG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "L": {
+      "item": "minecraft:lantern"
+    }
+  },
+  "result":{
+    "item": "vehicularlogistics:signal_lamp_block",
+    "count": 4
+  }
+}

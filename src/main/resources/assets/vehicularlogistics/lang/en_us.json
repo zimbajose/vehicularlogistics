@@ -1,0 +1,17 @@
+{
+  "item.vehicularlogistics.cheap_clutch": "Cheap Clutch",
+  "item.vehicularlogistics.gps": "GPS",
+  "item.vehicularlogistics.greenstone": "Greenstone",
+  "item.vehicularlogistics.greenstone_seeds": "Greenstone Seeds",
+
+  "block.vehicularlogistics.asphalt_block": "Asphalt",
+  "block.vehicularlogistics.hot_tar_block": "Hot Tar",
+  "block.vehicularlogistics.signal_lamp_block": "Signal Lamp",
+  "block.vehicularlogistics.greenstone_crop_block": "Greenstone Crop",
+
+  "itemGroup.carpartstab": "Car Parts",
+  "itemGroup.carblockstab": "Vehicular Logistics Building Blocks",
+  "itemGroup.materialstab": "Materials",
+
+  "entity.minecraft.villager.vehicularlogistics.mechanic": "Mechanic"
+}

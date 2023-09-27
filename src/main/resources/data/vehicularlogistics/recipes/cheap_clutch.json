@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    " XX",
+    " XX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "#": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "item":"vehicularlogistics:cheap_clutch"
+  }
+}

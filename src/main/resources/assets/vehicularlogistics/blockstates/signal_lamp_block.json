@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "vehicularlogistics:block/signal_lamp_unlit"
+    },
+    "lit=true": {
+      "model": "vehicularlogistics:block/signal_lamp_lit"
+    }
+  }
+}
