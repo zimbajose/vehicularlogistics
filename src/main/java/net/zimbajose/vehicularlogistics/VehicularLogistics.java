@@ -25,6 +25,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.zimbajose.vehicularlogistics.block.ModBlocks;
 import net.zimbajose.vehicularlogistics.item.ModItems;
+import net.zimbajose.vehicularlogistics.painting.ModPaintings;
 import net.zimbajose.vehicularlogistics.villager.ModVillagers;
 import org.slf4j.Logger;
 
@@ -58,6 +59,9 @@ public class VehicularLogistics
         ModBlocks.register(modEventBus);
 
         ModVillagers.register(modEventBus);
+
+        //Register paintings
+        ModPaintings.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
