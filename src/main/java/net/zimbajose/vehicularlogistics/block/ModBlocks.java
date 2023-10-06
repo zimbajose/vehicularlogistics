@@ -39,6 +39,12 @@ public class ModBlocks {
                     ),
             ModCreativeModeTabs.BUILD_BLOCKS_TAB
             );
+
+    public static final RegistryObject<Block> GREENSTONE_ORE = registerBlock("greenstone_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1f).requiresCorrectToolForDrops()),
+            ModCreativeModeTabs.BUILD_BLOCKS_TAB
+            );
+
     //Adds the signal lamps blocks
     public static final RegistryObject<Block> SIGNAL_LAMP_BLOCK = registerBlock("signal_lamp_block",
             () -> new SignalLampBlock(BlockBehaviour.Properties.of(Material.GLASS)
@@ -50,6 +56,7 @@ public class ModBlocks {
                     ,
             ModCreativeModeTabs.BUILD_BLOCKS_TAB
             );
+
     public static final RegistryObject<Block> GREEN_STONE_CROP_BLOCK = BLOCKS.register("greenstone_crop_block",
             () -> new GreenStoneCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

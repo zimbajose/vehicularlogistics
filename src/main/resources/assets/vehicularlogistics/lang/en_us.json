@@ -8,6 +8,7 @@
   "block.vehicularlogistics.hot_tar_block": "Hot Tar",
   "block.vehicularlogistics.signal_lamp_block": "Signal Lamp",
   "block.vehicularlogistics.greenstone_crop_block": "Greenstone Crop",
+  "block.vehicularlogistics.greenstone_ore_block":"Greenstone Ore",
 
   "itemGroup.carpartstab": "Car Parts",
   "itemGroup.carblockstab": "Vehicular Logistics Building Blocks",

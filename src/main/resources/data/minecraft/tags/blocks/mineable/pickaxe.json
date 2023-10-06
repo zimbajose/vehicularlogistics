@@ -3,6 +3,7 @@
   "values": [
     "vehicularlogistics:asphalt_block",
     "vehicularlogistics:hot_tar_block",
-    "vehicularlogistics:signal_lamp_block"
+    "vehicularlogistics:signal_lamp_block",
+    "vehicularlogistics:greenstone_ore_block"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "greenstone",
+  "ingredients": [
+    {
+      "item": "vehicularlogistics:greenstone"
+    }
+
+  ],
+  "result": {
+    "item": "vehicularlogistics:greenstone_seeds",
+    "count": 1
+  }
+}

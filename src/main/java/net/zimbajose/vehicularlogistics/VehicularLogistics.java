@@ -27,6 +27,8 @@ import net.zimbajose.vehicularlogistics.block.ModBlocks;
 import net.zimbajose.vehicularlogistics.item.ModItems;
 import net.zimbajose.vehicularlogistics.painting.ModPaintings;
 import net.zimbajose.vehicularlogistics.villager.ModVillagers;
+import net.zimbajose.vehicularlogistics.world.feature.ModConfiguredFeatures;
+import net.zimbajose.vehicularlogistics.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
 
 import static net.zimbajose.vehicularlogistics.villager.ModVillagers.VILLAGER_PROFESSIONS;
@@ -63,6 +65,9 @@ public class VehicularLogistics
         //Register paintings
         ModPaintings.register(modEventBus);
 
+        //Register Features
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
